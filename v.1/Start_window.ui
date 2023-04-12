@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>866</width>
+    <height>677</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>FilEye</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>name.ico</normaloff>name.ico</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QMainWindow{
+	background-color:rgb(240, 235, 190)
+}
+QPushButton{
+	background-color:rgb(182, 217, 157);
+	border-style: outset;
+	border-radius: 10px;
+	border-color: beige;
+	font: bold 14px;
+	padding: 6px;		
+}
+QPushButton:pressed{
+	background-color:rgb(147, 204, 105);
+	border-style: outset;
+	border-radius: 10px;
+	border-color: beige;
+	font: bold 14px;
+	padding: 6px	
+}
+</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="verticalLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>270</y>
+      <width>521</width>
+      <height>221</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QPushButton" name="Cabin_but">
+       <property name="text">
+        <string>File cabinet</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="start_but">
+       <property name="text">
+        <string>Start</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>866</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

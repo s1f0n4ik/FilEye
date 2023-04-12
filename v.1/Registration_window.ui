@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>978</width>
+    <height>657</height>
+   </rect>
+  </property>
+  <property name="mouseTracking">
+   <bool>false</bool>
+  </property>
+  <property name="windowTitle">
+   <string>FilEye</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QMainWindow{
+	background-color:rgb(240, 235, 190)
+}
+QPushButton{
+	background-color:rgb(182, 217, 157);
+	border-style: outset;
+	border-radius: 10px;
+	border-color: beige;
+	font: bold 14px;
+	padding: 6px;		
+}
+QPushButton:pressed{
+	background-color:rgb(147, 204, 105);
+	border-style: outset;
+	border-radius: 10px;
+	border-color: beige;
+	font: bold 14px;
+	padding: 6px	
+}
+QSlider::handle:horizontal {
+	background: rgb(182, 217, 157);
+	padding: 6px;
+	border-style: outset;
+	border-radius: 10px;
+	border-color: beige;
+	font: bold 14px;
+	margin: 0 -4px;
+	
+}
+QSlider::handle:vertical {
+	background: rgb(182, 217, 157);
+	padding: 6px;
+	border-style: outset;
+	border-radius: 10px;
+	border-color: beige;
+	font: bold 14px;
+	margin: 0 -4px;
+	
+}</string>
+  </property>
+  <property name="unifiedTitleAndToolBarOnMac">
+   <bool>false</bool>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="registration_but">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>460</y>
+      <width>611</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Save</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>180</y>
+      <width>101</width>
+      <height>251</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout_2">
+     <item>
+      <widget class="QLabel" name="label_3">
+       <property name="font">
+        <font>
+         <family>Snap ITC</family>
+        </font>
+       </property>
+       <property name="text">
+        <string>    Фамилия</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_2">
+       <property name="font">
+        <font>
+         <family>Snap ITC</family>
+        </font>
+       </property>
+       <property name="text">
+        <string>      Имя</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label">
+       <property name="font">
+        <font>
+         <family>Snap ITC</family>
+        </font>
+       </property>
+       <property name="text">
+        <string>    Отчество</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_5">
+       <property name="text">
+        <string>  Номер группы</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_6">
+       <property name="text">
+        <string>         Пол</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="layoutWidget_2">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>166</y>
+      <width>501</width>
+      <height>281</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QLineEdit" name="surname_edit"/>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="name_edit"/>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="patronymic_edit"/>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="group_edit"/>
+     </item>
+     <item>
+      <widget class="QComboBox" name="gender_edit">
+       <item>
+        <property name="text">
+         <string>Выбрать...</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Мужской</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Женский</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QPushButton" name="cancel_but">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>510</y>
+      <width>611</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Cancel</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>978</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1034</width>
+    <height>716</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>FilEye</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QMainWindow{
+	background-color:rgb(240, 235, 190)
+}
+QPushButton{
+	background-color:rgb(182, 217, 157);
+	border-style: outset;
+	border-radius: 10px;
+	border-color: beige;
+	font: bold 14px;
+	padding: 6px;		
+}
+QPushButton:pressed{
+	background-color:rgb(147, 204, 105);
+	border-style: outset;
+	border-radius: 10px;
+	border-color: beige;
+	font: bold 14px;
+	padding: 6px	
+}
+QSlider::handle:horizontal {
+	background: rgb(182, 217, 157);
+	padding: 6px;
+	border-style: outset;
+	border-radius: 10px;
+	border-color: beige;
+	font: bold 14px;
+	margin: 0 -4px;
+	
+}
+QSlider::handle:vertical {
+	background: rgb(182, 217, 157);
+	padding: 6px;
+	border-style: outset;
+	border-radius: 10px;
+	border-color: beige;
+	font: bold 14px;
+	margin: 0 -4px;
+	
+}</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="verticalLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>690</x>
+      <y>70</y>
+      <width>321</width>
+      <height>221</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout_3">
+     <item>
+      <widget class="QPushButton" name="reg_but">
+       <property name="text">
+        <string>New user</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="choose_but">
+       <property name="text">
+        <string>Select</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QTableWidget" name="tableWidget">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>60</y>
+      <width>671</width>
+      <height>621</height>
+     </rect>
+    </property>
+    <property name="midLineWidth">
+     <number>0</number>
+    </property>
+    <property name="rowCount">
+     <number>0</number>
+    </property>
+    <property name="columnCount">
+     <number>5</number>
+    </property>
+    <attribute name="horizontalHeaderDefaultSectionSize">
+     <number>131</number>
+    </attribute>
+    <column/>
+    <column/>
+    <column/>
+    <column/>
+    <column/>
+   </widget>
+   <widget class="QPushButton" name="main_but">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>20</y>
+      <width>171</width>
+      <height>29</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Main window</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="ch_label">
+    <property name="geometry">
+     <rect>
+      <x>700</x>
+      <y>320</y>
+      <width>301</width>
+      <height>131</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
